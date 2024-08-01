@@ -3,5 +3,8 @@
 @tailwind utilities;
 
 .Card{
-    @apply w-48 h-64 shadow-md m-auto flex-none transform transition-all hover:-translate-y-4 hover:shadow-xl
+    @apply w-48 h-64 shadow-md  flex-none transform transition-all hover:-translate-y-4 hover:shadow-xl
+}
+.CardTitle{
+    @apply text-3xl pt-8 pb-1 font-semibold
 }
